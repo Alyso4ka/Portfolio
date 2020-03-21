@@ -1,0 +1,16 @@
+.skill {
+  border: 3px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 10px;
+  max-width: 300px;
+  width: 100%;
+
+}
+
+
+.skill img {
+  max-width: 150px;
+  width: 100%;
+}
