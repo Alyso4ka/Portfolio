@@ -1,13 +1,18 @@
 import React from 'react';
-import styles from '../Slogan.module.css';
+import styles from './Slogan.module.css';
 
-function Slogan () {
-  return (
-    <div className={styles.slogan}>
+function Slogan() {
+    return (
+        <div className={styles.slogan}>
 
-      
-    </div>
-  );
+
+            <div className={styles.container}>
+                Рассматриваю варианты удаленной работы
+
+                <button>Нанять меня</button>
+            </div>
+        </div>
+    );
 }
 
 export default Slogan;
