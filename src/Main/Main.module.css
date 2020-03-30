@@ -1,5 +1,5 @@
 .main {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #dbb5d5;
   display: flex;
   justify-content: center;
@@ -11,6 +11,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 
 }
 

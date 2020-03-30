@@ -7,7 +7,7 @@ function Skills() {
         <div className={styles.skills}>
 
             <div className={styles.container}>
-                Мои скиллы
+                <h2>Мои скиллы</h2>
                 <div className={styles.allSkill}>
 
                     <Skill />

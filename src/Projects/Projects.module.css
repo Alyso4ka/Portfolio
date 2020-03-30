@@ -1,5 +1,5 @@
 .projects {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #d7c1ff;
   text-align: center;
   display: flex;
@@ -12,6 +12,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .allWorks {
@@ -20,4 +21,3 @@
   justify-content: space-around;
 
 }
-

@@ -11,8 +11,9 @@ function Contacts() {
                     <div><input></input></div>
                     <div>  <input></input></div>
                     <div> <textarea></textarea></div>
-                    <div>  <button>Отправить</button> </div>
+
                 </form>
+                <button>Отправить</button>
             </div>
 
         </div>
