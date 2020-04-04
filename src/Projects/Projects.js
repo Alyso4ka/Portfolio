@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Projects.module.css';
-import Works from "./Works/Works";
+import Work from "./Work/Work";
 
 function Projects() {
     return (
@@ -9,8 +9,8 @@ function Projects() {
                 <h2>Мои работы</h2>
                 <div className={styles.allWorks}>
 
-                    <Works/>
-                    <Works/>
+                    <Work/>
+                    <Work/>
                 </div>
             </div>
         </div>
