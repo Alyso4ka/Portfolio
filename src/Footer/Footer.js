@@ -11,7 +11,6 @@ function Footer() {
                     <div><a>qwe</a> </div>
                     <div><a>qwe</a> </div>
                     <div><a>qwe</a> </div>
-
                 </div>
                 <h5>© 2020 Все права защищены </h5>
             </div>
