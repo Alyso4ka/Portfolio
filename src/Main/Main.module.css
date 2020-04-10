@@ -1,6 +1,6 @@
 .main {
   min-height: 100vh;
-  background-color: #dbb5d5;
+  background-color: #1f1f20;
   display: flex;
   justify-content: center;
 }
@@ -20,8 +20,13 @@
   flex-direction: column;
 }
 
+.greeting:nth-child(1) {
+  font-size: 16px;
+  font-weight: 800;
+}
+
 .photo {
   height: 400px;
   width: 300px;
-  background-color: grey;
+  background-color: #bababa;
 }

@@ -1,9 +1,11 @@
 .header {
   height: 70px;
-  background-color: #b7e2ff;
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  position: fixed;
+  width: 100%;
 }
 
 .container {
