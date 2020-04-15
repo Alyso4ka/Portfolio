@@ -20,10 +20,18 @@
   flex-direction: column;
 }
 
-.greeting:nth-child(1) {
+.greeting span:nth-child(1) {
+  font-size: 16px;
+
+
+}
+
+.greeting span:nth-child(2) {
   font-size: 16px;
   font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
 }
+
 
 .photo {
   height: 400px;

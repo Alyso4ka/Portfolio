@@ -8,7 +8,7 @@ function Main() {
                 <div className={styles.greeting}>
                     <span>Привет!</span>
                     <span>Меня зовут Евгений Зинюк</span>
-                    <span>Я front-end разработчик</span>
+                    <h1>Я front-end разработчик</h1>
                 </div>
                 <div className={styles.photo}>
                     <img src="" alt=""/>
