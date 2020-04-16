@@ -1,40 +1,48 @@
 .main {
-  min-height: 100vh;
-  background-color: #1f1f20;
-  display: flex;
-  justify-content: center;
+    min-height: 100vh;
+    background-color: #1f1f20;
+    display: flex;
+    justify-content: center;
 }
 
 .container {
-  width: 80%;
-  border: 1px solid;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
+    width: 80%;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 
 }
 
 .greeting {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .greeting span:nth-child(1) {
-  font-size: 16px;
+    font-size: 16px;
 
 
 }
 
-.greeting span:nth-child(2) {
-  font-size: 16px;
-  font-weight: 800;
-  font-family: 'Montserrat', sans-serif;
+.greeting span:nth-child(2),
+.greeting span:nth-child(2) span{
+    font-weight: 700;
+    font-stretch: normal;
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+}
+
+h1 {
+  font-size: 27px;
 }
 
 
 .photo {
-  height: 400px;
-  width: 300px;
-  background-color: #bababa;
+    height: 400px;
+    width: 300px;
+    background-color: #bababa;
 }
