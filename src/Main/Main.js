@@ -7,11 +7,14 @@ function Main() {
             <div className={styles.container}>
                 <div className={styles.greeting}>
                     <span>Привет!</span>
-                    <span>Я <span>Евгений Зинюк</span></span>
-                    <h1>Я front-end разработчик</h1>
+                    <span>Я Евгений <span>Зинюк</span></span>
+                    <h1>front-end разработчик</h1>
                 </div>
-                <div className={styles.photo}>
-                    <img src="" alt=""/>
+                <div>
+                    <div className={styles.photo}>
+                        <div className={styles.image}/>
+
+                    </div>
                 </div>
 
             </div>
