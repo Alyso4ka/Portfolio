@@ -15,8 +15,6 @@ function Skills() {
 
 
                 </div>
-
-
                 <div className={styles.allSkill}>
 
                     <Skill/>
