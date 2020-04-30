@@ -3,6 +3,7 @@ import styles from './Skills.module.css';
 import Skill from './Skill/Skill';
 
 
+
 function Skills() {
     return (
         <div className={styles.skills}>
@@ -12,7 +13,6 @@ function Skills() {
                 <div className={styles.headerTitle}>
                     <h2 className={styles.headerTitle}>Мои скиллы</h2>
                     <div className={styles.line}></div>
-
 
                 </div>
                 <div className={styles.allSkill}>
