@@ -1,15 +1,19 @@
 import React from 'react';
 import styles from './Skill.module.css';
+import Item from "../../Item/Item";
 
-function Skill() {
+const Skill = (props) => {
     return (
-
         <div className={styles.skill}>
-            <img src="https://klike.net/uploads/posts/2019-03/1551511784_4.jpg"/>
-            <h2>React</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at consequuntur deserunt earum eligendi enim facilis id illum ipsam modi molestias officia omnis, praesentium quasi quod, repellat voluptatibus. Accusantium, aperiam?</p>
+            <div className={styles.skillBackground} >
+                <Item size={props.size} icon={props.icon} className={props.className}/>
+            </div>
+            <h3> {props.name}</h3>
+            <p>React — это JavaScript-библиотека для разработки пользовательского интерфейса.</p>
         </div>
     );
+
 }
+
 
 export default Skill;
