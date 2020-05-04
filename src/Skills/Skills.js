@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './Skills.module.css';
 import Skill from './Skill/Skill';
-
-import {faCss3, faHtml5, faJs, faReact} from '@fortawesome/free-brands-svg-icons';
+import {faCss3Alt, faHtml5, faJsSquare, faReact} from '@fortawesome/free-brands-svg-icons';
 import {faEnvelope} from "@fortawesome/free-regular-svg-icons";
+
 
 
 
@@ -12,9 +12,9 @@ class Skills extends React.Component {
     state = {
         iconItem: [
             {icon: faReact, className:styles.item, size: "4x", name: "REACT"},
-            {icon: faJs, className:styles.item, size: "4x", name: "JAVASCRIPT"},
+            {icon: faJsSquare, className:styles.item, size: "4x", name: "JAVASCRIPT"},
             {icon: faHtml5, className:styles.item, size: "4x", name: "HTML"},
-            {icon: faCss3, className:styles.item, size: "4x", name: "CSS"},
+            {icon: faCss3Alt, className:styles.item, size: "4x", name: "CSS"},
         ]
     }
 
