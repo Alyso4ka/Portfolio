@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Skills.module.css';
 import Skill from './Skill/Skill';
+
 import {faCss3, faHtml5, faJs, faReact} from '@fortawesome/free-brands-svg-icons';
 import {faEnvelope} from "@fortawesome/free-regular-svg-icons";
 
@@ -26,7 +27,7 @@ class Skills extends React.Component {
             <div className={styles.skills}>
                 <div className={styles.container}>
                     <div className={styles.mySkills}>
-                        <h2 className={styles.head}> Мои <span> скиллы</span> </h2>
+                        <h2 className={styles.head}> Мои  скиллы </h2>
                         <div className={styles.line}></div>
                     </div>
                     <div className={styles.allSkill}>
