@@ -1,18 +1,18 @@
+
 .projects {
   min-height: 100vh;
-  background-color: #d7c1ff;
-  text-align: center;
+  background-color: #1f1f20;
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 .container {
-  border: 1px solid;
   width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  flex-wrap: wrap;
+
 }
 
 .allWorks {
@@ -20,4 +20,14 @@
   flex-wrap: wrap;
   justify-content: space-around;
 
+}
+
+.myProjects {
+  height: 200px;
+}
+.line {
+  background: #4e92e5;
+  height: 1px;
+  width: 140px;
+  margin: 0 auto;
 }

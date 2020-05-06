@@ -16,7 +16,7 @@
 }
 
 .skill h3 {
-  font-size: 20px;
+  font-size: 25px;
 
 }
 
@@ -24,9 +24,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px;
-  height: 100px;
-  background-color: #212529;
+  width: 120px;
+  height: 120px;
+  background-color: rgba(33, 37, 41, 0.54);
   transform: rotate(45deg);
 
 }

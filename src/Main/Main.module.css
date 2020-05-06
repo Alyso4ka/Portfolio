@@ -48,7 +48,7 @@
     position: absolute;
     width:100%;
     height: 20px;
-    background-color: #ea548d;
+    background-color: #4e92e5;
     bottom: 0px;
     z-index: -1;
 }
@@ -78,7 +78,7 @@ h1 {
     position: absolute;
     height: 430px;
     width: 300px;
-    border: 5px solid #ea548d;
+    border: 5px solid #4e92e5;
     left: 15px;
     top: -15px;
     z-index: -1;

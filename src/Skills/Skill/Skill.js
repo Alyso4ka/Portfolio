@@ -9,7 +9,7 @@ const Skill = (props) => {
                 <Item size={props.size} icon={props.icon} className={props.className}/>
             </div>
             <h3> {props.name}</h3>
-            <p>React — это JavaScript-библиотека для разработки пользовательского интерфейса.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus, ad aliquid amet autem consequatur debitis deleniti explicabo facilis, harum id perferendis possimus, provident quaerat quasi repellendus saepe velit voluptatum.</p>
         </div>
     );
 

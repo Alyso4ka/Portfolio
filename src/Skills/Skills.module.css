@@ -27,15 +27,13 @@
 
 
 .line {
-    background: #e9548d;
+    background: #4e92e5;
     height: 1px;
     width: 100px;
     margin: 0 auto;
 }
 
-.head span {
-    color: #ea548d;;
-}
+
 
 .item {
     transform: rotate(-45deg);
