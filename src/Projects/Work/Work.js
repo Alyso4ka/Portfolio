@@ -1,10 +1,11 @@
+
 import React from 'react';
 import styles from './Work.module.css';
 
 const Work = (props) => {
 
     const divStyle = {
-        backgroundImage: "url("+ props.img +")",
+        backgroundImage: "url("+ props.background +")",
     }
 
     return (

@@ -40,7 +40,7 @@ button {
 
 button:hover {
   transition: all 0.4s ease-in-out 0s;
-  background-color: #ea548d;
+  background-color: #4e92e5;
   width: 170px;
 }
 
@@ -52,7 +52,7 @@ button:after {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ea548d;
+  background-color: #4e92e5;
   margin: 0 auto;
   z-index: -1;
 }
@@ -63,7 +63,7 @@ a{
 }
 
 a:hover {
-  color: #ea548d;
+  color: #4e92e5;
 }
 
 code {
