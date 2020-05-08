@@ -3,14 +3,13 @@
 .footer {
   min-height: 30vh;
   width: 100%;
-  background-color: #c7beff;
+  background-color: #12151a;
   display: flex;
   justify-content: center;
 }
 
 .container {
-  border: 1px solid;
-  width: 80%;
+
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -20,5 +19,11 @@
 .items {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+flex-direction: column;
+  align-items: center;
+
+}
+
+.item {
+  margin-right: 10px;
 }

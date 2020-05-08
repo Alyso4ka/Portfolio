@@ -1,13 +1,13 @@
 .contacts {
     min-height: 80vh;
-    background-color: #ffd4cd;
+    background-color: #1f1f20;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
 .container {
-    border: 1px solid;
+
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -37,4 +37,21 @@ form, input, textarea {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+.formatArea input {
+    background-color: #252527;
+    margin: 5px 0;
+    border: 1px solid #4a4a4a;
+    height: 3px;
+    padding: 10px;
+}
+
+.formatArea textarea {
+    margin: 5px 0;
+    min-height: 160px;
+    background-color: #252527;
+    border: 1px solid #4a4a4a;
+    padding: 10px;
+}
+
 

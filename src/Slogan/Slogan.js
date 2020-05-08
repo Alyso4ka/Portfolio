@@ -7,7 +7,7 @@ function Slogan() {
 
 
             <div className={styles.container}>
-                <h2>Рассматриваю варианты удаленной работы</h2>
+                <h2><span>Рассматриваю Варианты Удаленной Работы</span></h2>
 
                 <button>Нанять меня</button>
             </div>

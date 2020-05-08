@@ -7,10 +7,12 @@ function Contacts() {
 
             <div className={styles.container}>
                 <h2>Контакты</h2>
-                <form action="#">
-                    <div><input></input></div>
-                    <div>  <input></input></div>
-                    <div> <textarea></textarea></div>
+                <form className={styles.formatArea}>
+
+                        <input placeholder="Имя" type="text"/>
+                        <input placeholder="E-mail" type="text"/>
+
+                    <textarea placeholder="Сообщение"></textarea>
 
                 </form>
                 <button>Отправить</button>
